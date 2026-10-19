@@ -1,0 +1,12 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {RemoteAI} from '../apps/server/src/remote-ai.ts';
+const config=JSON.parse(readFileSync('.local/deployment/team.json','utf8')),worker=config.workers['1'];
+const check=await fetch(worker.url+'/status',{method:'POST',headers:{Authorization:'Bearer '+worker.key,'Content-Type':'application/json'},body:'{}'}),status=await check.json();
+if(status.worker?.busy)throw new Error('Personal worker busy; probe cancelled.');
+const client=new RemoteAI(worker),prompt=readFileSync('.local/acceptance/context-replay/prepared-prompt.txt','utf8');
+console.log('Sending the corrected exact-request payload through the host’s own managed ChatGPT worker. Read-only; no shared messages or Docs writes.');
+const output=await client.propose(undefined,prompt,()=>{},()=>{},{model:'gpt-6.1-sol',effort:'high'},false);
+const answer=JSON.parse(output);if(!Array.isArray(answer.operations)||typeof answer.answer!=='string')throw Error('Invalid proposal envelope');
+writeFileSync('.local/acceptance/context-replay/managed-answer.json',output,{mode:0o600});
+writeFileSync('.local/acceptance/context-replay/managed-receipt.json',JSON.stringify({checkedAt:new Date().toISOString(),characters:prompt.length,payloadBytes:Buffer.byteLength(JSON.stringify({prompt})),model:'gpt-6.1-sol',effort:'high',account:'host-personal-managed-chatgpt',answerCharacters:answer.answer.length,proposedOperations:answer.operations.length,nativeWrites:0,sharedMessagesAdded:0},null,2),{mode:0o600});
+console.log(JSON.stringify({managedRequestPassed:true,answerCharacters:answer.answer.length,proposedOperations:answer.operations.length,nativeWrites:0}));

@@ -1,0 +1,3 @@
+solair-logo-reference.png: User-supplied SolAir solar/wind logo, October 16, 2026. Reference for palette/concept, not used as the rendered wordmark.
+solair-companion.png: Original AI-generated transparent illustration created for this workspace: a friendly cream and cobalt solar/wind robot with golden solar antenna, wind turbine, solar backpack, manuscript notebook and waving hand. Decorative; not a photograph of the research prototype or evidence of a completed experiment.
+fonts/: Outfit and Work Sans, downloaded from Google Fonts and self-hosted with their included SIL Open Font Licenses. No external font request is needed at runtime.

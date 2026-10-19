@@ -1,0 +1,48 @@
+{
+  "name": "solair-manuscript-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/web"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "server": "tsx apps/server/src/index.ts",
+    "dev:server": "tsx watch apps/server/src/index.ts",
+    "dev:web": "npm run dev --workspace @solair/web",
+    "build": "npm run build --workspace @solair/web",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test apps/server/test/*.test.ts",
+    "probe:codex": "tsx scripts/probe-codex.ts",
+    "deploy:check": "node scripts/check-deployment.mjs",
+    "prepare:laptop": "node scripts/prepare-laptop-team.mjs",
+    "team:laptop": "node scripts/run-laptop-team.mjs",
+    "smoke": "tsx scripts/smoke.ts",
+    "team:start": "node scripts/start-team.mjs",
+    "test:unit": "tsx --test apps/server/test/account-usage.test.ts apps/server/test/codex.test.ts apps/server/test/deployment.test.ts apps/server/test/tabular-sources.test.ts apps/server/test/worker.test.ts"
+  },
+  "dependencies": {
+    "exceljs": "4.4.0",
+    "express": "5.1.0",
+    "mammoth": "1.13.0",
+    "multer": "2.4.0",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "6.4.299",
+    "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.3",
+    "@types/multer": "2.0.0",
+    "@types/node": "24.7.2",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "jszip": "3.10.2",
+    "playwright": "1.58.2",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}

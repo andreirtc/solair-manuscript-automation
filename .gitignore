@@ -1,0 +1,27 @@
+node_modules/
+.local/
+apps/web/dist/
+*.log
+.env
+.env.*
+!.env.example
+test-results/
+playwright-report/
+deploy/context/
+deploy/google/Core.gs
+# User-provided research originals remain private and outside source control.
+/Research-Instrument.md
+/electrical-and-mechanical-system-findings-in-bemac.md
+/TSU-SOLARCHARGER-BEMAC_inquest2018_part1.pdf
+/TSU-SOLARCHARGER-BEMAC_inquest-2020_part2.pdf
+/UPD-BEMAC.pdf
+/.impeccable/review/
+
+# Private project notes and operator handoffs are not public source.
+/PROJECT-NOTES.md
+/INSTRUMENT-REVIEW-DP2.md
+/MASTER-PROMPT-CHAPTERS-1-3.md
+/CODEX-CONTINUE.md
+/GEMINI-CONTINUE.md
+/RETURN-TO-CODEX.md
+/DEADLINE-CONTINUE-*.md

@@ -1,0 +1,15 @@
+{
+  "timeZone": "Asia/Manila",
+  "runtimeVersion": "V8",
+  "exceptionLogging": "NONE",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      { "userSymbol": "Docs", "serviceId": "docs", "version": "v1" }
+    ]
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/documents",
+    "https://www.googleapis.com/auth/drive",
+    "https://www.googleapis.com/auth/script.external_request"
+  ]
+}

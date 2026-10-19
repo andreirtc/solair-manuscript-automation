@@ -1,0 +1,1038 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-16T13:45:35.757837+00:00",
+  "title": "Design System: SolAir",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0069 88.64)",
+          "oklch(26% 0.0069 88.64)",
+          "oklch(38% 0.0069 88.64)",
+          "oklch(49% 0.0069 88.64)",
+          "oklch(61% 0.0069 88.64)",
+          "oklch(72% 0.0069 88.64)",
+          "oklch(84% 0.0069 88.64)",
+          "oklch(95% 0.0069 88.64)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(72% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "subtle": {
+        "role": "neutral",
+        "displayName": "Subtle",
+        "tonalRamp": [
+          "oklch(15% 0.0028 128.49)",
+          "oklch(26% 0.0028 128.49)",
+          "oklch(38% 0.0028 128.49)",
+          "oklch(49% 0.0028 128.49)",
+          "oklch(61% 0.0028 128.49)",
+          "oklch(72% 0.0028 128.49)",
+          "oklch(84% 0.0028 128.49)",
+          "oklch(95% 0.0028 128.49)"
+        ]
+      },
+      "soft": {
+        "role": "secondary",
+        "displayName": "Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0161 262.75)",
+          "oklch(26% 0.0161 262.75)",
+          "oklch(38% 0.0161 262.75)",
+          "oklch(49% 0.0161 262.75)",
+          "oklch(61% 0.0161 262.75)",
+          "oklch(72% 0.0161 262.75)",
+          "oklch(84% 0.0161 262.75)",
+          "oklch(95% 0.0161 262.75)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0317 256.28)",
+          "oklch(26% 0.0317 256.28)",
+          "oklch(38% 0.0317 256.28)",
+          "oklch(49% 0.0317 256.28)",
+          "oklch(61% 0.0317 256.28)",
+          "oklch(72% 0.0317 256.28)",
+          "oklch(84% 0.0317 256.28)",
+          "oklch(95% 0.0317 256.28)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0232 250.57)",
+          "oklch(26% 0.0232 250.57)",
+          "oklch(38% 0.0232 250.57)",
+          "oklch(49% 0.0232 250.57)",
+          "oklch(61% 0.0232 250.57)",
+          "oklch(72% 0.0232 250.57)",
+          "oklch(84% 0.0232 250.57)",
+          "oklch(95% 0.0232 250.57)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15% 0.0070 247.90)",
+          "oklch(26% 0.0070 247.90)",
+          "oklch(38% 0.0070 247.90)",
+          "oklch(49% 0.0070 247.90)",
+          "oklch(61% 0.0070 247.90)",
+          "oklch(72% 0.0070 247.90)",
+          "oklch(84% 0.0070 247.90)",
+          "oklch(95% 0.0070 247.90)"
+        ]
+      },
+      "brand": {
+        "role": "secondary",
+        "displayName": "Brand",
+        "tonalRamp": [
+          "oklch(15% 0.1593 258.59)",
+          "oklch(26% 0.1593 258.59)",
+          "oklch(38% 0.1593 258.59)",
+          "oklch(49% 0.1593 258.59)",
+          "oklch(61% 0.1593 258.59)",
+          "oklch(72% 0.1593 258.59)",
+          "oklch(84% 0.1593 258.59)",
+          "oklch(95% 0.1593 258.59)"
+        ]
+      },
+      "brand-strong": {
+        "role": "secondary",
+        "displayName": "Brand Strong",
+        "tonalRamp": [
+          "oklch(15% 0.1338 258.68)",
+          "oklch(26% 0.1338 258.68)",
+          "oklch(38% 0.1338 258.68)",
+          "oklch(49% 0.1338 258.68)",
+          "oklch(61% 0.1338 258.68)",
+          "oklch(72% 0.1338 258.68)",
+          "oklch(84% 0.1338 258.68)",
+          "oklch(95% 0.1338 258.68)"
+        ]
+      },
+      "sun": {
+        "role": "primary",
+        "displayName": "Sun",
+        "tonalRamp": [
+          "oklch(15% 0.1537 72.74)",
+          "oklch(26% 0.1537 72.74)",
+          "oklch(38% 0.1537 72.74)",
+          "oklch(49% 0.1537 72.74)",
+          "oklch(61% 0.1537 72.74)",
+          "oklch(72% 0.1537 72.74)",
+          "oklch(84% 0.1537 72.74)",
+          "oklch(95% 0.1537 72.74)"
+        ]
+      },
+      "sun-soft": {
+        "role": "primary",
+        "displayName": "Sun Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0368 84.59)",
+          "oklch(26% 0.0368 84.59)",
+          "oklch(38% 0.0368 84.59)",
+          "oklch(49% 0.0368 84.59)",
+          "oklch(61% 0.0368 84.59)",
+          "oklch(72% 0.0368 84.59)",
+          "oklch(84% 0.0368 84.59)",
+          "oklch(95% 0.0368 84.59)"
+        ]
+      },
+      "error": {
+        "role": "neutral",
+        "displayName": "Error",
+        "tonalRamp": [
+          "oklch(15% 0.1487 23.39)",
+          "oklch(26% 0.1487 23.39)",
+          "oklch(38% 0.1487 23.39)",
+          "oklch(49% 0.1487 23.39)",
+          "oklch(61% 0.1487 23.39)",
+          "oklch(72% 0.1487 23.39)",
+          "oklch(84% 0.1487 23.39)",
+          "oklch(95% 0.1487 23.39)"
+        ]
+      },
+      "error-bg": {
+        "role": "neutral",
+        "displayName": "Error Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0165 26.65)",
+          "oklch(26% 0.0165 26.65)",
+          "oklch(38% 0.0165 26.65)",
+          "oklch(49% 0.0165 26.65)",
+          "oklch(61% 0.0165 26.65)",
+          "oklch(72% 0.0165 26.65)",
+          "oklch(84% 0.0165 26.65)",
+          "oklch(95% 0.0165 26.65)"
+        ]
+      },
+      "success": {
+        "role": "neutral",
+        "displayName": "Success",
+        "tonalRamp": [
+          "oklch(15% 0.0885 163.21)",
+          "oklch(26% 0.0885 163.21)",
+          "oklch(38% 0.0885 163.21)",
+          "oklch(49% 0.0885 163.21)",
+          "oklch(61% 0.0885 163.21)",
+          "oklch(72% 0.0885 163.21)",
+          "oklch(84% 0.0885 163.21)",
+          "oklch(95% 0.0885 163.21)"
+        ]
+      },
+      "solar-ink": {
+        "role": "primary",
+        "displayName": "Solar Ink",
+        "tonalRamp": [
+          "oklch(15% 0.1161 60.94)",
+          "oklch(26% 0.1161 60.94)",
+          "oklch(38% 0.1161 60.94)",
+          "oklch(49% 0.1161 60.94)",
+          "oklch(61% 0.1161 60.94)",
+          "oklch(72% 0.1161 60.94)",
+          "oklch(84% 0.1161 60.94)",
+          "oklch(95% 0.1161 60.94)"
+        ]
+      },
+      "action": {
+        "role": "primary",
+        "displayName": "Action",
+        "tonalRamp": [
+          "oklch(15% 0.1424 78.30)",
+          "oklch(26% 0.1424 78.30)",
+          "oklch(38% 0.1424 78.30)",
+          "oklch(49% 0.1424 78.30)",
+          "oklch(61% 0.1424 78.30)",
+          "oklch(72% 0.1424 78.30)",
+          "oklch(84% 0.1424 78.30)",
+          "oklch(95% 0.1424 78.30)"
+        ]
+      },
+      "on-action": {
+        "role": "primary",
+        "displayName": "On Action",
+        "tonalRamp": [
+          "oklch(15% 0.0408 76.64)",
+          "oklch(26% 0.0408 76.64)",
+          "oklch(38% 0.0408 76.64)",
+          "oklch(49% 0.0408 76.64)",
+          "oklch(61% 0.0408 76.64)",
+          "oklch(72% 0.0408 76.64)",
+          "oklch(84% 0.0408 76.64)",
+          "oklch(95% 0.0408 76.64)"
+        ]
+      },
+      "dark-ground": {
+        "role": "neutral",
+        "displayName": "Dark Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0154 261.58)",
+          "oklch(26% 0.0154 261.58)",
+          "oklch(38% 0.0154 261.58)",
+          "oklch(49% 0.0154 261.58)",
+          "oklch(61% 0.0154 261.58)",
+          "oklch(72% 0.0154 261.58)",
+          "oklch(84% 0.0154 261.58)",
+          "oklch(95% 0.0154 261.58)"
+        ]
+      },
+      "dark-surface": {
+        "role": "neutral",
+        "displayName": "Dark Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0220 257.28)",
+          "oklch(26% 0.0220 257.28)",
+          "oklch(38% 0.0220 257.28)",
+          "oklch(49% 0.0220 257.28)",
+          "oklch(61% 0.0220 257.28)",
+          "oklch(72% 0.0220 257.28)",
+          "oklch(84% 0.0220 257.28)",
+          "oklch(95% 0.0220 257.28)"
+        ]
+      },
+      "dark-subtle": {
+        "role": "neutral",
+        "displayName": "Dark Subtle",
+        "tonalRamp": [
+          "oklch(15% 0.0259 255.74)",
+          "oklch(26% 0.0259 255.74)",
+          "oklch(38% 0.0259 255.74)",
+          "oklch(49% 0.0259 255.74)",
+          "oklch(61% 0.0259 255.74)",
+          "oklch(72% 0.0259 255.74)",
+          "oklch(84% 0.0259 255.74)",
+          "oklch(95% 0.0259 255.74)"
+        ]
+      },
+      "dark-soft": {
+        "role": "secondary",
+        "displayName": "Dark Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0515 260.94)",
+          "oklch(26% 0.0515 260.94)",
+          "oklch(38% 0.0515 260.94)",
+          "oklch(49% 0.0515 260.94)",
+          "oklch(61% 0.0515 260.94)",
+          "oklch(72% 0.0515 260.94)",
+          "oklch(84% 0.0515 260.94)",
+          "oklch(95% 0.0515 260.94)"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Dark Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0074 260.73)",
+          "oklch(26% 0.0074 260.73)",
+          "oklch(38% 0.0074 260.73)",
+          "oklch(49% 0.0074 260.73)",
+          "oklch(61% 0.0074 260.73)",
+          "oklch(72% 0.0074 260.73)",
+          "oklch(84% 0.0074 260.73)",
+          "oklch(95% 0.0074 260.73)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Dark Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0272 259.05)",
+          "oklch(26% 0.0272 259.05)",
+          "oklch(38% 0.0272 259.05)",
+          "oklch(49% 0.0272 259.05)",
+          "oklch(61% 0.0272 259.05)",
+          "oklch(72% 0.0272 259.05)",
+          "oklch(84% 0.0272 259.05)",
+          "oklch(95% 0.0272 259.05)"
+        ]
+      },
+      "dark-line": {
+        "role": "neutral",
+        "displayName": "Dark Line",
+        "tonalRamp": [
+          "oklch(15% 0.0319 255.72)",
+          "oklch(26% 0.0319 255.72)",
+          "oklch(38% 0.0319 255.72)",
+          "oklch(49% 0.0319 255.72)",
+          "oklch(61% 0.0319 255.72)",
+          "oklch(72% 0.0319 255.72)",
+          "oklch(84% 0.0319 255.72)",
+          "oklch(95% 0.0319 255.72)"
+        ]
+      },
+      "dark-brand": {
+        "role": "secondary",
+        "displayName": "Dark Brand",
+        "tonalRamp": [
+          "oklch(15% 0.1154 258.70)",
+          "oklch(26% 0.1154 258.70)",
+          "oklch(38% 0.1154 258.70)",
+          "oklch(49% 0.1154 258.70)",
+          "oklch(61% 0.1154 258.70)",
+          "oklch(72% 0.1154 258.70)",
+          "oklch(84% 0.1154 258.70)",
+          "oklch(95% 0.1154 258.70)"
+        ]
+      },
+      "dark-brand-strong": {
+        "role": "secondary",
+        "displayName": "Dark Brand Strong",
+        "tonalRamp": [
+          "oklch(15% 0.0825 258.13)",
+          "oklch(26% 0.0825 258.13)",
+          "oklch(38% 0.0825 258.13)",
+          "oklch(49% 0.0825 258.13)",
+          "oklch(61% 0.0825 258.13)",
+          "oklch(72% 0.0825 258.13)",
+          "oklch(84% 0.0825 258.13)",
+          "oklch(95% 0.0825 258.13)"
+        ]
+      },
+      "dark-sun": {
+        "role": "primary",
+        "displayName": "Dark Sun",
+        "tonalRamp": [
+          "oklch(15% 0.1447 77.00)",
+          "oklch(26% 0.1447 77.00)",
+          "oklch(38% 0.1447 77.00)",
+          "oklch(49% 0.1447 77.00)",
+          "oklch(61% 0.1447 77.00)",
+          "oklch(72% 0.1447 77.00)",
+          "oklch(84% 0.1447 77.00)",
+          "oklch(95% 0.1447 77.00)"
+        ]
+      },
+      "dark-sun-soft": {
+        "role": "primary",
+        "displayName": "Dark Sun Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0309 76.59)",
+          "oklch(26% 0.0309 76.59)",
+          "oklch(38% 0.0309 76.59)",
+          "oklch(49% 0.0309 76.59)",
+          "oklch(61% 0.0309 76.59)",
+          "oklch(72% 0.0309 76.59)",
+          "oklch(84% 0.0309 76.59)",
+          "oklch(95% 0.0309 76.59)"
+        ]
+      },
+      "dark-error": {
+        "role": "neutral",
+        "displayName": "Dark Error",
+        "tonalRamp": [
+          "oklch(15% 0.0919 21.67)",
+          "oklch(26% 0.0919 21.67)",
+          "oklch(38% 0.0919 21.67)",
+          "oklch(49% 0.0919 21.67)",
+          "oklch(61% 0.0919 21.67)",
+          "oklch(72% 0.0919 21.67)",
+          "oklch(84% 0.0919 21.67)",
+          "oklch(95% 0.0919 21.67)"
+        ]
+      },
+      "dark-error-bg": {
+        "role": "neutral",
+        "displayName": "Dark Error Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0379 3.50)",
+          "oklch(26% 0.0379 3.50)",
+          "oklch(38% 0.0379 3.50)",
+          "oklch(49% 0.0379 3.50)",
+          "oklch(61% 0.0379 3.50)",
+          "oklch(72% 0.0379 3.50)",
+          "oklch(84% 0.0379 3.50)",
+          "oklch(95% 0.0379 3.50)"
+        ]
+      },
+      "dark-success": {
+        "role": "neutral",
+        "displayName": "Dark Success",
+        "tonalRamp": [
+          "oklch(15% 0.0910 163.64)",
+          "oklch(26% 0.0910 163.64)",
+          "oklch(38% 0.0910 163.64)",
+          "oklch(49% 0.0910 163.64)",
+          "oklch(61% 0.0910 163.64)",
+          "oklch(72% 0.0910 163.64)",
+          "oklch(84% 0.0910 163.64)",
+          "oklch(95% 0.0910 163.64)"
+        ]
+      },
+      "dark-solar-ink": {
+        "role": "primary",
+        "displayName": "Dark Solar Ink",
+        "tonalRamp": [
+          "oklch(15% 0.1257 77.20)",
+          "oklch(26% 0.1257 77.20)",
+          "oklch(38% 0.1257 77.20)",
+          "oklch(49% 0.1257 77.20)",
+          "oklch(61% 0.1257 77.20)",
+          "oklch(72% 0.1257 77.20)",
+          "oklch(84% 0.1257 77.20)",
+          "oklch(95% 0.1257 77.20)"
+        ]
+      },
+      "dark-action": {
+        "role": "primary",
+        "displayName": "Dark Action",
+        "tonalRamp": [
+          "oklch(15% 0.1299 77.16)",
+          "oklch(26% 0.1299 77.16)",
+          "oklch(38% 0.1299 77.16)",
+          "oklch(49% 0.1299 77.16)",
+          "oklch(61% 0.1299 77.16)",
+          "oklch(72% 0.1299 77.16)",
+          "oklch(84% 0.1299 77.16)",
+          "oklch(95% 0.1299 77.16)"
+        ]
+      },
+      "dark-on-action": {
+        "role": "primary",
+        "displayName": "Dark On Action",
+        "tonalRamp": [
+          "oklch(15% 0.0408 76.64)",
+          "oklch(26% 0.0408 76.64)",
+          "oklch(38% 0.0408 76.64)",
+          "oklch(49% 0.0408 76.64)",
+          "oklch(61% 0.0408 76.64)",
+          "oklch(72% 0.0408 76.64)",
+          "oklch(84% 0.0408 76.64)",
+          "oklch(95% 0.0408 76.64)"
+        ]
+      },
+      "action-hover": {
+        "role": "primary",
+        "displayName": "Solar Action Hover",
+        "tonalRamp": [
+          "oklch(15% 0.1258 80.10)",
+          "oklch(26% 0.1258 80.10)",
+          "oklch(38% 0.1258 80.10)",
+          "oklch(49% 0.1258 80.10)",
+          "oklch(61% 0.1258 80.10)",
+          "oklch(72% 0.1258 80.10)",
+          "oklch(84% 0.1258 80.10)",
+          "oklch(95% 0.1258 80.10)"
+        ]
+      },
+      "role-manuscript": {
+        "role": "tertiary",
+        "displayName": "Role Manuscript",
+        "tonalRamp": [
+          "oklch(15% 0.1161 60.94)",
+          "oklch(26% 0.1161 60.94)",
+          "oklch(38% 0.1161 60.94)",
+          "oklch(49% 0.1161 60.94)",
+          "oklch(61% 0.1161 60.94)",
+          "oklch(72% 0.1161 60.94)",
+          "oklch(84% 0.1161 60.94)",
+          "oklch(95% 0.1161 60.94)"
+        ]
+      },
+      "role-manuscript-soft": {
+        "role": "tertiary",
+        "displayName": "Role Manuscript Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0460 86.46)",
+          "oklch(26% 0.0460 86.46)",
+          "oklch(38% 0.0460 86.46)",
+          "oklch(49% 0.0460 86.46)",
+          "oklch(61% 0.0460 86.46)",
+          "oklch(72% 0.0460 86.46)",
+          "oklch(84% 0.0460 86.46)",
+          "oklch(95% 0.0460 86.46)"
+        ]
+      },
+      "role-defense": {
+        "role": "tertiary",
+        "displayName": "Role Defense",
+        "tonalRamp": [
+          "oklch(15% 0.1345 299.88)",
+          "oklch(26% 0.1345 299.88)",
+          "oklch(38% 0.1345 299.88)",
+          "oklch(49% 0.1345 299.88)",
+          "oklch(61% 0.1345 299.88)",
+          "oklch(72% 0.1345 299.88)",
+          "oklch(84% 0.1345 299.88)",
+          "oklch(95% 0.1345 299.88)"
+        ]
+      },
+      "role-defense-soft": {
+        "role": "tertiary",
+        "displayName": "Role Defense Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0296 305.12)",
+          "oklch(26% 0.0296 305.12)",
+          "oklch(38% 0.0296 305.12)",
+          "oklch(49% 0.0296 305.12)",
+          "oklch(61% 0.0296 305.12)",
+          "oklch(72% 0.0296 305.12)",
+          "oklch(84% 0.0296 305.12)",
+          "oklch(95% 0.0296 305.12)"
+        ]
+      },
+      "role-questions": {
+        "role": "tertiary",
+        "displayName": "Role Questions",
+        "tonalRamp": [
+          "oklch(15% 0.1522 351.16)",
+          "oklch(26% 0.1522 351.16)",
+          "oklch(38% 0.1522 351.16)",
+          "oklch(49% 0.1522 351.16)",
+          "oklch(61% 0.1522 351.16)",
+          "oklch(72% 0.1522 351.16)",
+          "oklch(84% 0.1522 351.16)",
+          "oklch(95% 0.1522 351.16)"
+        ]
+      },
+      "role-questions-soft": {
+        "role": "tertiary",
+        "displayName": "Role Questions Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0286 343.57)",
+          "oklch(26% 0.0286 343.57)",
+          "oklch(38% 0.0286 343.57)",
+          "oklch(49% 0.0286 343.57)",
+          "oklch(61% 0.0286 343.57)",
+          "oklch(72% 0.0286 343.57)",
+          "oklch(84% 0.0286 343.57)",
+          "oklch(95% 0.0286 343.57)"
+        ]
+      },
+      "role-prototype": {
+        "role": "tertiary",
+        "displayName": "Role Prototype",
+        "tonalRamp": [
+          "oklch(15% 0.1593 258.59)",
+          "oklch(26% 0.1593 258.59)",
+          "oklch(38% 0.1593 258.59)",
+          "oklch(49% 0.1593 258.59)",
+          "oklch(61% 0.1593 258.59)",
+          "oklch(72% 0.1593 258.59)",
+          "oklch(84% 0.1593 258.59)",
+          "oklch(95% 0.1593 258.59)"
+        ]
+      },
+      "role-prototype-soft": {
+        "role": "tertiary",
+        "displayName": "Role Prototype Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0161 262.75)",
+          "oklch(26% 0.0161 262.75)",
+          "oklch(38% 0.0161 262.75)",
+          "oklch(49% 0.0161 262.75)",
+          "oklch(61% 0.0161 262.75)",
+          "oklch(72% 0.0161 262.75)",
+          "oklch(84% 0.0161 262.75)",
+          "oklch(95% 0.0161 262.75)"
+        ]
+      },
+      "dark-role-manuscript": {
+        "role": "tertiary",
+        "displayName": "Dark Role Manuscript",
+        "tonalRamp": [
+          "oklch(15% 0.1257 77.20)",
+          "oklch(26% 0.1257 77.20)",
+          "oklch(38% 0.1257 77.20)",
+          "oklch(49% 0.1257 77.20)",
+          "oklch(61% 0.1257 77.20)",
+          "oklch(72% 0.1257 77.20)",
+          "oklch(84% 0.1257 77.20)",
+          "oklch(95% 0.1257 77.20)"
+        ]
+      },
+      "dark-role-manuscript-soft": {
+        "role": "tertiary",
+        "displayName": "Dark Role Manuscript Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0309 76.59)",
+          "oklch(26% 0.0309 76.59)",
+          "oklch(38% 0.0309 76.59)",
+          "oklch(49% 0.0309 76.59)",
+          "oklch(61% 0.0309 76.59)",
+          "oklch(72% 0.0309 76.59)",
+          "oklch(84% 0.0309 76.59)",
+          "oklch(95% 0.0309 76.59)"
+        ]
+      },
+      "dark-role-defense": {
+        "role": "tertiary",
+        "displayName": "Dark Role Defense",
+        "tonalRamp": [
+          "oklch(15% 0.0933 304.38)",
+          "oklch(26% 0.0933 304.38)",
+          "oklch(38% 0.0933 304.38)",
+          "oklch(49% 0.0933 304.38)",
+          "oklch(61% 0.0933 304.38)",
+          "oklch(72% 0.0933 304.38)",
+          "oklch(84% 0.0933 304.38)",
+          "oklch(95% 0.0933 304.38)"
+        ]
+      },
+      "dark-role-defense-soft": {
+        "role": "tertiary",
+        "displayName": "Dark Role Defense Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0484 302.95)",
+          "oklch(26% 0.0484 302.95)",
+          "oklch(38% 0.0484 302.95)",
+          "oklch(49% 0.0484 302.95)",
+          "oklch(61% 0.0484 302.95)",
+          "oklch(72% 0.0484 302.95)",
+          "oklch(84% 0.0484 302.95)",
+          "oklch(95% 0.0484 302.95)"
+        ]
+      },
+      "dark-role-questions": {
+        "role": "tertiary",
+        "displayName": "Dark Role Questions",
+        "tonalRamp": [
+          "oklch(15% 0.1106 345.69)",
+          "oklch(26% 0.1106 345.69)",
+          "oklch(38% 0.1106 345.69)",
+          "oklch(49% 0.1106 345.69)",
+          "oklch(61% 0.1106 345.69)",
+          "oklch(72% 0.1106 345.69)",
+          "oklch(84% 0.1106 345.69)",
+          "oklch(95% 0.1106 345.69)"
+        ]
+      },
+      "dark-role-questions-soft": {
+        "role": "tertiary",
+        "displayName": "Dark Role Questions Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0491 342.23)",
+          "oklch(26% 0.0491 342.23)",
+          "oklch(38% 0.0491 342.23)",
+          "oklch(49% 0.0491 342.23)",
+          "oklch(61% 0.0491 342.23)",
+          "oklch(72% 0.0491 342.23)",
+          "oklch(84% 0.0491 342.23)",
+          "oklch(95% 0.0491 342.23)"
+        ]
+      },
+      "dark-role-prototype": {
+        "role": "tertiary",
+        "displayName": "Dark Role Prototype",
+        "tonalRamp": [
+          "oklch(15% 0.1154 258.70)",
+          "oklch(26% 0.1154 258.70)",
+          "oklch(38% 0.1154 258.70)",
+          "oklch(49% 0.1154 258.70)",
+          "oklch(61% 0.1154 258.70)",
+          "oklch(72% 0.1154 258.70)",
+          "oklch(84% 0.1154 258.70)",
+          "oklch(95% 0.1154 258.70)"
+        ]
+      },
+      "dark-role-prototype-soft": {
+        "role": "tertiary",
+        "displayName": "Dark Role Prototype Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0515 260.94)",
+          "oklch(26% 0.0515 260.94)",
+          "oklch(38% 0.0515 260.94)",
+          "oklch(49% 0.0515 260.94)",
+          "oklch(61% 0.0515 260.94)",
+          "oklch(72% 0.0515 260.94)",
+          "oklch(84% 0.0515 260.94)",
+          "oklch(95% 0.0515 260.94)"
+        ]
+      },
+      "example-paper-ink": {
+        "role": "neutral",
+        "displayName": "Example Paper Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0337 260.87)",
+          "oklch(26% 0.0337 260.87)",
+          "oklch(38% 0.0337 260.87)",
+          "oklch(49% 0.0337 260.87)",
+          "oklch(61% 0.0337 260.87)",
+          "oklch(72% 0.0337 260.87)",
+          "oklch(84% 0.0337 260.87)",
+          "oklch(95% 0.0337 260.87)"
+        ]
+      },
+      "example-before": {
+        "role": "neutral",
+        "displayName": "Example Before",
+        "tonalRamp": [
+          "oklch(15% 0.1024 22.49)",
+          "oklch(26% 0.1024 22.49)",
+          "oklch(38% 0.1024 22.49)",
+          "oklch(49% 0.1024 22.49)",
+          "oklch(61% 0.1024 22.49)",
+          "oklch(72% 0.1024 22.49)",
+          "oklch(84% 0.1024 22.49)",
+          "oklch(95% 0.1024 22.49)"
+        ]
+      },
+      "example-after": {
+        "role": "neutral",
+        "displayName": "Example After",
+        "tonalRamp": [
+          "oklch(15% 0.0665 164.31)",
+          "oklch(26% 0.0665 164.31)",
+          "oklch(38% 0.0665 164.31)",
+          "oklch(49% 0.0665 164.31)",
+          "oklch(61% 0.0665 164.31)",
+          "oklch(72% 0.0665 164.31)",
+          "oklch(84% 0.0665 164.31)",
+          "oklch(95% 0.0665 164.31)"
+        ]
+      },
+      "dark-example-paper": {
+        "role": "neutral",
+        "displayName": "Warm Example Paper in Dark Mode",
+        "tonalRamp": [
+          "oklch(15% 0.0114 84.58)",
+          "oklch(26% 0.0114 84.58)",
+          "oklch(38% 0.0114 84.58)",
+          "oklch(49% 0.0114 84.58)",
+          "oklch(61% 0.0114 84.58)",
+          "oklch(72% 0.0114 84.58)",
+          "oklch(84% 0.0114 84.58)",
+          "oklch(95% 0.0114 84.58)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Welcome hero; responsive sizes are documented in Layout and Typography."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Workspace page headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section hierarchy."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading and supporting text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Controls and form labels."
+      },
+      "comparison": {
+        "displayName": "Comparison",
+        "purpose": "Exact before/proposed wording."
+      }
+    },
+    "shadows": [
+      {
+        "name": "ambient-light",
+        "value": "0 22px 65px -28px #172b4d40",
+        "purpose": "Floating welcome and sign-in surfaces in light mode."
+      },
+      {
+        "name": "ambient-dark",
+        "value": "0 25px 65px -25px #0009",
+        "purpose": "Floating welcome and sign-in surfaces in dark mode."
+      },
+      {
+        "name": "composer",
+        "value": "0 8px 26px -17px #172b4d50",
+        "purpose": "Low writing-panel depth."
+      },
+      {
+        "name": "illustrative-paper",
+        "value": "0 28px 60px -30px #162d5259",
+        "purpose": "Large semantic manuscript paper; dark uses 0 28px 65px -25px #0009."
+      },
+      {
+        "name": "main-robot",
+        "value": "drop-shadow(0 22px 16px #30260f20)",
+        "purpose": "Original landing host."
+      },
+      {
+        "name": "role-character",
+        "value": "drop-shadow(0 26px 15px #00000014)",
+        "purpose": "Floating supporting creature."
+      },
+      {
+        "name": "example-conversation",
+        "value": "0 20px 40px -23px #152d5250",
+        "purpose": "Illustrative response bubble."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-transition",
+        "value": ".18s",
+        "purpose": "Background, color, box-shadow and transform state changes."
+      },
+      {
+        "name": "preview-cycle",
+        "value": "6200ms",
+        "purpose": "Ask/Review/Apply timer; manual step selection pauses."
+      },
+      {
+        "name": "paper-reveal",
+        "value": ".6s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Illustrative paper step change; removed when paused."
+      },
+      {
+        "name": "character-breathe",
+        "value": "6s ease-in-out infinite",
+        "purpose": "Robot/sign-in idle; role showcase uses 7s."
+      },
+      {
+        "name": "character-hello",
+        "value": ".9s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Robot click greeting; polite live text clears after 2400ms."
+      },
+      {
+        "name": "wind-current",
+        "value": "8s linear infinite",
+        "purpose": "Open SVG dashed airflow; second stream 10s with -4s delay."
+      },
+      {
+        "name": "turbine-turn",
+        "value": "8s linear infinite",
+        "purpose": "Turbine rotation associated with airflow."
+      },
+      {
+        "name": "sun-glint",
+        "value": "4s ease-in-out infinite alternate",
+        "purpose": "Restrained solar particles, staggered -2s/-3s."
+      },
+      {
+        "name": "scene-stop",
+        "value": "paused || reduced || externalPause || hidden || !visible",
+        "purpose": "Per-scene Pause, live reduced-motion preference, offscreen threshold .05 and hidden-tab stops; sign-in busy/error adds externalPause."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile-max",
+        "value": "700px"
+      },
+      {
+        "name": "compact-max",
+        "value": "950px"
+      },
+      {
+        "name": "desktop-compact-max",
+        "value": "1200px"
+      },
+      {
+        "name": "wide-min",
+        "value": "1500px"
+      },
+      {
+        "name": "welcome-compact-max",
+        "value": "1000px"
+      },
+      {
+        "name": "short-desktop-max-height",
+        "value": "850px (width \u2265701px)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Implemented action variant with keyboard and disabled states.",
+      "html": "<button class=\"ds-button-primary\">Validate & preview</button>",
+      "css": ".ds-button-primary{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:44px;padding:10px 18px;border:0;border-radius:10px;font-family:\"Work Sans\",sans-serif;font-weight:500;font-size:15px;line-height:1.45;cursor:pointer;transition:background .18s,color .18s,box-shadow .18s,transform .18s;background:var(--action,#efb142);color:var(--on-action,#30220c);} .ds-button-primary:hover:not(:disabled){background:color-mix(in srgb,var(--action,#efb142) 84%,white);transform:translateY(-1px);} .ds-button-primary:focus-visible{outline:3px solid var(--brand,#1959b5);outline-offset:4px;} .ds-button-primary:disabled{opacity:.5;cursor:not-allowed;} @media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none;}}"
+    },
+    {
+      "name": "Subtle Button",
+      "kind": "button",
+      "refersTo": "button-subtle",
+      "description": "Implemented action variant with keyboard and disabled states.",
+      "html": "<button class=\"ds-button-subtle\">Read proposal</button>",
+      "css": ".ds-button-subtle{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:44px;padding:10px 18px;border:0;border-radius:10px;font-family:\"Work Sans\",sans-serif;font-weight:500;font-size:15px;line-height:1.45;cursor:pointer;transition:background .18s,color .18s,box-shadow .18s,transform .18s;background:var(--subtle,#f3f4f2);color:var(--ink,#202b3a);} .ds-button-subtle:hover:not(:disabled){background:var(--soft,#eaf0fb);color:var(--brand,#1959b5);} .ds-button-subtle:focus-visible{outline:3px solid var(--brand,#1959b5);outline-offset:4px;} .ds-button-subtle:disabled{opacity:.5;cursor:not-allowed;} @media(prefers-reduced-motion:reduce){.ds-button-subtle{transition:none;}}"
+    },
+    {
+      "name": "Danger Button",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "Implemented action variant with keyboard and disabled states.",
+      "html": "<button class=\"ds-button-danger\">Reject proposal</button>",
+      "css": ".ds-button-danger{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:44px;padding:10px 18px;border:0;border-radius:10px;font-family:\"Work Sans\",sans-serif;font-weight:500;font-size:15px;line-height:1.45;cursor:pointer;transition:background .18s,color .18s,box-shadow .18s,transform .18s;background:var(--error-bg,#fff0ee);color:var(--error,#a02f32);} .ds-button-danger:hover:not(:disabled){} .ds-button-danger:focus-visible{outline:3px solid var(--brand,#1959b5);outline-offset:4px;} .ds-button-danger:disabled{opacity:.5;cursor:not-allowed;} @media(prefers-reduced-motion:reduce){.ds-button-danger{transition:none;}}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Above-label workspace field.",
+      "html": "<label class=\"ds-field\">Workspace username<input placeholder=\"Your username\" /></label>",
+      "css": ".ds-field{display:flex;flex-direction:column;gap:9px;font:500 .88rem \"Work Sans\",sans-serif;color:var(--ink,#202b3a)}.ds-field input{font:400 15px/1.5 \"Work Sans\",sans-serif;padding:12px 13px;min-height:46px;background:var(--ground,#fffdf8);color:var(--ink,#202b3a);border:1px solid var(--line,#dce0e4);border-radius:8px}.ds-field input::placeholder{color:var(--muted,#626d79);opacity:1}.ds-field input:focus-visible{outline:3px solid var(--brand,#1959b5);outline-offset:4px;}"
+    },
+    {
+      "name": "Workspace Navigation",
+      "kind": "nav",
+      "refersTo": "nav-item",
+      "description": "Quiet sidebar rows with solar active state.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Workspace\"><button>Chat</button><button aria-current=\"page\">Review changes</button><button>History</button></nav>",
+      "css": ".ds-nav{width:230px;font-family:\"Work Sans\",sans-serif}.ds-nav button{display:flex;width:100%;text-align:left;min-height:46px;padding:12px 14px;border:0;border-radius:9px;background:none;color:var(--ink,#202b3a);font:400 .88rem \"Work Sans\",sans-serif;margin-bottom:4px;cursor:pointer;transition:background .18s,color .18s}.ds-nav button:hover{background:var(--subtle,#f3f4f2)}.ds-nav button[aria-current]{background:var(--sun-soft,#fff2d8);color:var(--solar-ink,#945305);font-weight:500}.ds-nav button:focus-visible{outline:3px solid var(--brand,#1959b5);outline-offset:4px;}"
+    },
+    {
+      "name": "Status Badge",
+      "kind": "chip",
+      "refersTo": "badge",
+      "description": "Text state with neutral, completion and failure tones.",
+      "html": "<div class=\"ds-badges\"><span>draft</span><span class=\"ds-success\">connected</span><span class=\"ds-error\">blocked</span></div>",
+      "css": ".ds-badges{display:flex;gap:8px;font-family:\"Work Sans\",sans-serif}.ds-badges span{display:inline-flex;padding:4px 8px;border-radius:5px;font-size:.69rem;font-weight:500;line-height:1.5;background:var(--subtle,#f3f4f2);color:var(--muted,#626d79)}.ds-badges .ds-success{background:color-mix(in srgb,var(--success,#267153) 12%,var(--surface,#fff));color:var(--success,#267153)}.ds-badges .ds-error{background:var(--error-bg,#fff0ee);color:var(--error,#a02f32)}"
+    },
+    {
+      "name": "Illustrative Manuscript Paper",
+      "kind": "card",
+      "refersTo": "illustrative-paper",
+      "description": "Semantic public workflow example; never a live manuscript receipt.",
+      "html": "<figure class=\"ds-paper\"><header>Illustrative workflow</header><div><h2>A revision you can see.</h2><p>Read the wording. Understand the reason.</p><section><strong>Before</strong><del>The prototype is complete.</del></section><section class=\"ds-paper-proposed\"><strong>Proposed</strong><p>The prototype is under development. Design decisions remain open.</p></section></div><figcaption>Example only \u00b7 no manuscript update</figcaption></figure>",
+      "css": ".ds-paper{margin:0;max-width:620px;border-radius:16px;background:var(--surface,#fff);color:var(--ink,#202b3a);box-shadow:0 28px 60px -30px #162d5259;font:15px \"Work Sans\",sans-serif}.ds-paper header,.ds-paper figcaption{padding:14px 26px;font-size:.75rem;color:#596777}.ds-paper header{border-bottom:1px solid #9daab52a}.ds-paper figcaption{border-top:1px solid #9daab52a}.ds-paper>div{padding:26px 34px}.ds-paper h2{font:500 2rem/1.15 \"Outfit\",sans-serif;margin:0 0 13px}.ds-paper section{display:grid;grid-template-columns:75px 1fr;gap:18px;padding:13px 18px;border-radius:10px;background:#b3474510;color:#8d4241;margin-top:8px;line-height:1.65}.ds-paper section strong{font-size:.76rem;font-weight:500}.ds-paper section p{margin:0}.ds-paper .ds-paper-proposed{color:#245843;background:#3e8a5e15}"
+    },
+    {
+      "name": "Chat Composer",
+      "kind": "custom",
+      "refersTo": "composer",
+      "description": "Quiet writing panel with one solar send action; text guidance remains writable while working and delivery status is explicit. Phone running-state shortcut focuses this real composer.",
+      "html": "<div class=\"ds-composer\"><textarea aria-label=\"Manuscript instruction\" placeholder=\"Tell SolAir what you\u2019d like to revise\u2026\"></textarea><div class=\"ds-compose-actions\"><span>Let the agent find it</span><button aria-label=\"Send instruction\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 3l19 9-19 9 4-9zM7 12h15\"/></svg></button></div></div>",
+      "css": ".ds-composer{border:1px solid var(--line,#dce0e4);background:var(--surface,#fff);color:var(--ink,#202b3a);border-radius:16px;padding:18px 18px 12px;box-shadow:0 8px 26px -17px #172b4d50;font-family:\"Work Sans\",sans-serif}.ds-composer:focus-within{border-color:var(--brand,#1959b5)}.ds-composer textarea{display:block;width:100%;min-height:62px;border:0;background:none;color:inherit;font:400 .94rem/1.5 \"Work Sans\",sans-serif;resize:vertical;outline:none}.ds-composer textarea::placeholder{color:var(--muted,#626d79)}.ds-compose-actions{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:12px}.ds-compose-actions span{font-size:.78rem;background:var(--subtle,#f3f4f2);padding:8px 10px;border-radius:7px}.ds-compose-actions button{width:42px;height:42px;display:flex;align-items:center;justify-content:center;border:0;border-radius:10px;cursor:pointer;background:var(--action,#efb142);color:var(--on-action,#30220c);transition:background .18s}.ds-compose-actions button:hover{background:color-mix(in srgb,var(--action,#efb142) 84%,white)}.ds-compose-actions button:focus-visible{outline:3px solid var(--brand,#1959b5);outline-offset:4px;}"
+    },
+    {
+      "name": "Inline Manuscript Proposal",
+      "kind": "custom",
+      "refersTo": "comparison-before",
+      "description": "Stacked exact wording, reason/source evidence and one deliberate batch approval action in chat. This specimen illustrates UI only; it performs no write.",
+      "html": "<section class=\"ds-inline-proposal\" aria-label=\"Proposed manuscript update\"><h3>Review this update</h3><div class=\"ds-comparison\"><section><h4>Before</h4><p>The process is done.</p></section><section><h4>Proposed</h4><p>The team records the measurements for analysis.</p></section></div><p class=\"ds-evidence\"><b>Reason &amp; sources</b>Clarifies the requested wording; read the cited source limitations.</p><p>Approving confirms you have read this batch, including removals and source limitations.</p><button class=\"ds-batch\">Approve and apply this batch</button></section>",
+      "css": ".ds-inline-proposal{margin-top:28px;padding-top:22px;border-top:1px solid var(--line,#dce0e4);color:var(--ink,#202b3a);font:400 15px/1.7 \"Work Sans\",sans-serif;min-width:0}.ds-inline-proposal>h3{margin:0 0 12px;font:500 1.18rem \"Outfit\",sans-serif}.ds-comparison{display:grid;grid-template-columns:1fr;gap:12px}.ds-comparison section{padding:17px;border-radius:10px;background:var(--subtle,#f3f4f2);min-width:0}.ds-comparison section+section{background:var(--soft,#eaf0fb)}.ds-comparison h4{font-size:.7rem;font-weight:500;color:var(--muted,#626d79);margin:0 0 12px}.ds-comparison section+section h4{color:var(--brand,#1959b5)}.ds-comparison p{font-size:.85rem;line-height:1.8;white-space:pre-wrap;overflow-wrap:anywhere;margin:0}.ds-evidence{font-size:.8rem;color:var(--muted,#626d79);line-height:1.75;margin:20px 0 8px}.ds-evidence b{display:block;color:var(--ink,#202b3a);font-weight:500;margin-bottom:5px}.ds-batch{min-height:44px;max-width:100%;white-space:normal;border:0;border-radius:10px;padding:10px 18px;background:var(--action,#efb142);color:var(--on-action,#30220c);font:500 .88rem \"Work Sans\",sans-serif;cursor:pointer;transition:background .18s,transform .18s}.ds-batch:hover{background:color-mix(in srgb,var(--action,#efb142) 84%,white);transform:translateY(-1px)}.ds-batch:focus-visible{outline:3px solid var(--brand,#1959b5);outline-offset:4px}.ds-batch:active{transform:translateY(1px)}.ds-batch:disabled{opacity:.5;cursor:not-allowed}"
+    },
+    {
+      "name": "Conversation Purpose Choice",
+      "kind": "button",
+      "refersTo": "role-choice",
+      "description": "Native aria-pressed button group; palette identifies purpose without implying verification. Artwork omitted from this self-contained specimen.",
+      "html": "<div class=\"ds-purpose\" role=\"group\" aria-label=\"Choose your conversation space\"><button aria-pressed=\"true\">Manuscript editor</button><button class=\"ds-defense\" aria-pressed=\"false\">Defense coach</button><button class=\"ds-questions\" aria-pressed=\"false\">Questions</button><button class=\"ds-prototype\" aria-pressed=\"false\">Prototype planner</button></div>",
+      "css": ".ds-purpose{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;font:.95rem \"Work Sans\",sans-serif}.ds-purpose button{min-height:68px;padding:10px 16px;border:0;border-radius:10px;text-align:left;background:transparent;color:var(--muted,#626d79);cursor:pointer}.ds-purpose button:hover{background:var(--subtle,#f3f4f2);color:var(--ink,#202b3a)}.ds-purpose button[aria-pressed=\"true\"]{background:var(--role-soft,#fff0cf);color:var(--role-color,#945305)}.ds-purpose button:focus-visible{outline:3px solid var(--brand,#1959b5);outline-offset:4px}.ds-purpose button:active{transform:translateY(1px)}.ds-purpose .ds-defense[aria-pressed=\"true\"]{background:#efe6fb;color:#7250a6}.ds-purpose .ds-questions[aria-pressed=\"true\"]{background:#fbe5f1;color:#a83d75}.ds-purpose .ds-prototype[aria-pressed=\"true\"]{background:#eaf0fb;color:#1959b5}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Solar energy. Fresh perspective.",
+    "overview": "SolAir pairs the warmth of solar gold with the clarity of cobalt airflow. Spacious pale-paper or navy grounds, precise mixed-case identity, the original robot host and four distinct floating role creatures welcome the team; the working interface settles into a quiet document workbench with readable changes and restrained chrome.\n\nThis is the implemented visual world, extracted from the final `style.css` \u2192 `refresh.css` cascade and React components. The expanded welcome scene uses semantic manuscript paper beside the original robot; yellow bird, purple cat, pink axolotl and blue snail companions support the four conversation purposes. The second wordmark uses precise font-outline lettering with a solar/wind emblem, replacing the rejected hand-drawn treatment. Google One, GitHub and Atlas OS are user-supplied references for space, welcome and visible motion; SolAir does not imply affiliation or reuse their characters.",
+    "keyCharacteristics": [
+      "Solar gold for action and warmth; cobalt for links, focus and airflow.",
+      "Outfit headings with Work Sans reading and controls.",
+      "Tonal document panels, fine dividers and selective ambient depth.",
+      "Persistent light/dark choice, controllable illustrative motion and a quiet workspace."
+    ],
+    "rules": [
+      {
+        "name": "The Solar Action Rule",
+        "body": "Primary buttons and send controls use the action/on-action pair; cobalt remains the link, focus and airflow color.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading First Rule",
+        "body": "Use Work Sans for manuscript comparisons and supporting text; reserve Outfit for headings and the precise outlined identity.",
+        "section": "typography"
+      },
+      {
+        "name": "The Quiet Workbench Rule",
+        "body": "Use tone and dividers for routine workspace structure; reserve ambient shadows for floating surfaces, the composer and welcoming illustrations.",
+        "section": "elevation & depth"
+      }
+    ],
+    "dos": [
+      "Do preserve the mixed-case SolAir name, solar/wind emblem and gold/cobalt relationship.",
+      "Do carry both theme states through backgrounds, text, borders and feedback.",
+      "Do keep exact inline before/proposed wording and reason/source evidence readable before the one deliberate batch approval action; show native and PDF verification separately.",
+      "Do keep each illustrated scene pausable and static under reduced motion, offscreen and hidden-tab states.",
+      "Do retain the original robot host and the distinct yellow bird, purple cat, pink axolotl and blue snail supporting cast.",
+      "Do retain asset provenance and the bundled font licenses."
+    ],
+    "donts": [
+      "Don't restore the rejected hand-drawn wordmark or copy reference-site mascots.",
+      "Don't present the animated example or generated companion as research evidence.",
+      "Don't turn mock review states into claims of live account consent, cloud deployment or successful manuscript writes.",
+      "Don't make automatic section finding depend on choosing paragraphs or mandatory manual scope."
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+name: solair-team
+x-common: &common
+  image: solair-team:local
+  build:
+    context: ..
+    dockerfile: deploy/Dockerfile
+  restart: unless-stopped
+  read_only: true
+  tmpfs: [/tmp]
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  networks: [private]
+  logging:
+    driver: local
+    options: { max-size: 5m, max-file: "2" }
+services:
+  app:
+    <<: *common
+    environment:
+      SOLAIR_TEAM_CONFIG: /run/secrets/team_config
+      SOLAIR_BIND: 0.0.0.0
+    secrets: [team_config]
+    volumes: [../.local/cloud-state:/opt/solair/manuscript-app/.local]
+  ai-1:
+    <<: *common
+    command: ["npx", "--no-install", "tsx", "apps/worker/src/index.ts"]
+    environment:
+      {
+        SOLAIR_WORKER_BIND: 0.0.0.0,
+        SOLAIR_WORKER_KEY_FILE: /run/secrets/worker1,
+      }
+    secrets: [worker1]
+    volumes: [member1:/home/node/.codex]
+  ai-2:
+    <<: *common
+    command: ["npx", "--no-install", "tsx", "apps/worker/src/index.ts"]
+    environment:
+      {
+        SOLAIR_WORKER_BIND: 0.0.0.0,
+        SOLAIR_WORKER_KEY_FILE: /run/secrets/worker2,
+      }
+    secrets: [worker2]
+    volumes: [member2:/home/node/.codex]
+  ai-3:
+    <<: *common
+    command: ["npx", "--no-install", "tsx", "apps/worker/src/index.ts"]
+    environment:
+      {
+        SOLAIR_WORKER_BIND: 0.0.0.0,
+        SOLAIR_WORKER_KEY_FILE: /run/secrets/worker3,
+      }
+    secrets: [worker3]
+    volumes: [member3:/home/node/.codex]
+  ai-4:
+    <<: *common
+    command: ["npx", "--no-install", "tsx", "apps/worker/src/index.ts"]
+    environment:
+      {
+        SOLAIR_WORKER_BIND: 0.0.0.0,
+        SOLAIR_WORKER_KEY_FILE: /run/secrets/worker4,
+      }
+    secrets: [worker4]
+    volumes: [member4:/home/node/.codex]
+  https:
+    image: caddy:2
+    restart: unless-stopped
+    ports: ["80:80", "443:443", "443:443/udp"]
+    volumes:
+      [
+        ./Caddyfile:/etc/caddy/Caddyfile:ro,
+        caddy_data:/data,
+        caddy_config:/config,
+      ]
+    environment:
+      {
+        SOLAIR_HOST: "${SOLAIR_HOST:?Set the hostname pointing to this server}",
+      }
+    networks: [private]
+networks:
+  private: {}
+volumes:
+  member1: {}
+  member2: {}
+  member3: {}
+  member4: {}
+  caddy_data: {}
+  caddy_config: {}
+secrets:
+  team_config: { file: ../.local/deployment/team.json }
+  worker1: { file: ../.local/deployment/worker1.key }
+  worker2: { file: ../.local/deployment/worker2.key }
+  worker3: { file: ../.local/deployment/worker3.key }
+  worker4: { file: ../.local/deployment/worker4.key }
